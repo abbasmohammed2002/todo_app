@@ -1,6 +1,32 @@
 html{
-    color:red;
+    font-family: sans-serif;
+  border-style: double;
+  border-width: 30px;
+  border-bottom: 30px dashed;
+color:#42dff4;
+ background: #284c87;
 }
-h1{
-    color:orange;
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+.third{
+  text-align: center;
+  text-decoration: underline
+}
+#add-new-todo-button{
+  font-size:20px;
+    text-align: center;
+  color: #ffffff;
+  background-color:purple
+}
+.tasks{
+  float: right;
+}
+.calender{
+ text-align: center;
+}
+#list{
+    list-style: none;
+}
 }
